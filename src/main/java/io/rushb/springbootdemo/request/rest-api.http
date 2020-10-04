@@ -1,0 +1,27 @@
+### 模型一：点对点直连
+GET http://localhost:8080/spring-boot-demo/message/send/simple
+Accept: */*
+Cache-Control: no-cache
+
+### 模型二：工作队列
+GET http://localhost:8080/spring-boot-demo/message/send/work
+Accept: */*
+Cache-Control: no-cache
+
+### 模型三：路由
+GET http://localhost:8080/spring-boot-demo/message/send/route
+Accept: */*
+Cache-Control: no-cache
+
+### 模型四：广播 pub-sub
+GET http://localhost:8080/spring-boot-demo/message/send/fanout
+Accept: */*
+Cache-Control: no-cache
+
+### 模型五：动态路由，订阅模式
+GET http://localhost:8080/spring-boot-demo/message/send/topic
+Accept: */*
+Cache-Control: no-cache
+
+###
+

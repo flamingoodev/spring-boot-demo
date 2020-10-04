@@ -2,3 +2,12 @@ server:
   port: 8080
   servlet:
     context-path: /spring-boot-demo
+spring:
+  application:
+    name: spring-boot-demo
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
